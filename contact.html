@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Jebwach Travel Safari to discuss destinations, safari packages and travel quotations.">
+    <title>Contact Us | Jebwach Travel Safari</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container nav-container">
+        <a href="index.html" class="logo">JEBWACH <span>TRAVEL SAFARI</span></a>
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu" aria-expanded="false">Menu</button>
+        <nav class="main-nav" id="mainNav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="tours.html">Tour Packages</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="contact.html" class="nav-button">Plan Your Trip</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-banner">
+        <div class="container page-heading">
+            <p class="eyebrow">LET US HELP YOU PLAN</p>
+            <h1>Contact Jebwach Travel Safari</h1>
+            <p>Tell us about your next trip and the experience you would like to have.</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container contact-layout">
+            <div class="contact-details">
+                <p class="eyebrow">GET IN TOUCH</p>
+                <h2>Start Planning Your Journey</h2>
+                <p>
+                    Whether you are considering a wildlife safari, a beach
+                    holiday or a tailor-made itinerary, share your plans with us.
+                </p>
+
+                <div class="contact-item">
+                    <h3>Business Name</h3>
+                    <p>Jebwach Travel Safari</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Location</h3>
+                    <p>Kenya</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>Insert your official business email before publishing.</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Telephone / WhatsApp</h3>
+                    <p>Insert your official business telephone number before publishing.</p>
+                </div>
+
+                <div class="info-panel">
+                    <h3>For a faster quotation</h3>
+                    <p>
+                        Include your preferred destination, travel dates,
+                        number of adults and children, accommodation preference
+                        and approximate budget.
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send a Tour Enquiry</h2>
+
+                <form id="enquiryForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName"
+                               autocomplete="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email"
+                               autocomplete="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telephone Number</label>
+                        <input type="tel" id="phone" name="phone"
+                               autocomplete="tel" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="destination">Preferred Destination</label>
+                        <select id="destination" name="destination" required>
+                            <option value="">Select a destination</option>
+                            <option value="Maasai Mara">Maasai Mara</option>
+                            <option value="Amboseli">Amboseli</option>
+                            <option value="Tsavo">Tsavo National Parks</option>
+                            <option value="Diani Beach">Diani Beach</option>
+                            <option value="Mount Kenya">Mount Kenya Region</option>
+                            <option value="Other">Other / Not yet decided</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="travelDate">Preferred Travel Date</label>
+                        <input type="date" id="travelDate" name="travelDate">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="travellers">Number of Travellers</label>
+                        <input type="number" id="travellers" name="travellers"
+                               min="1" max="100" value="2" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budget">Approximate Budget</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select a budget range</option>
+                            <option value="Under KES 30000">Under KES 30,000</option>
+                            <option value="KES 30000-75000">KES 30,000–75,000</option>
+                            <option value="KES 75000-150000">KES 75,000–150,000</option>
+                            <option value="Over KES 150000">Over KES 150,000</option>
+                            <option value="Discuss budget">Discuss my budget</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Trip</label>
+                        <textarea id="message" name="message"
+                                  placeholder="Describe your preferred activities, dates or requirements."
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-dark">
+                        Submit Enquiry
+                    </button>
+
+                    <p id="formStatus" class="form-status"
+                       role="status" aria-live="polite"></p>
+
+                    <p class="form-note">
+                        This demonstration form does not transmit or store
+                        your information. Online submission must be configured
+                        before the site is used for real customer enquiries.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <a href="index.html" class="logo footer-logo">JEBWACH <span>TRAVEL SAFARI</span></a>
+            <p>Discover Africa through wildlife, landscapes and meaningful travel experiences.</p>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="tours.html">Tour Packages</a>
+        </div>
+        <div>
+            <h3>Plan Your Journey</h3>
+            <p>Contact us to discuss your travel plans.</p>
+            <a href="contact.html">Make an enquiry</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; <span id="currentYear">2026</span> Jebwach Travel Safari. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
